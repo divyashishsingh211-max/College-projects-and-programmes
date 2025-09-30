@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("enter a charcter");
+    scanf("%c",&ch);
+    if(islower(ch));
+    ch=ch-32;
+    if(ch=='A' || ch=='E' || ch=='I' || ch=='O' ||ch=='U')
+    printf("vowel");
+    else
+        printf("not vowel");
+    return 0;
+}
